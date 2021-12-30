@@ -102,6 +102,4 @@ class Handler(Extract, GetPages):
         company['bst:registrationId'] = company_num
 
         company['@source-id'] = self.NICK_NAME
-        print(company)
-        exit()
         return company
